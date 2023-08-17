@@ -1,0 +1,75 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --remarks-main-color: #555555;
+  --main-text-color: #141414;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 800;
+}
+
+.wrapper {
+  display: flex;
+  max-width: 1920px;
+  min-height: 100%;
+  margin: 0 auto;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 125px;
+  padding: 40px 60px;
+  column-gap: 40px;
+}
+
+.header__logo {
+  color: var(--main-text-color);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 125%;
+}
+
+.header__logo-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.header__phone {
+  font-weight: 600;
+}
+
+.header__phone-text {
+  margin-left: 7px;
+  letter-spacing: -0.25px;
+}
+
+.header__nav {
+  margin-left: auto;
+}
+
+.header__nav-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 40px;
+  font-weight: 400;
+  margin-left: auto;
+}
+
+.nav-link{
+  font-family: 'Manrope', sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  color: var(--remarks-main-color);
+  line-height: 200%;
+}
