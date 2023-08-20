@@ -116,3 +116,160 @@ body {
   outline: none;
   background-color: var(--main-btn-color);
 }
+
+.section-label {
+  color: #5c8692;
+  font-family: ManropeWeb;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 154.5%; /* 23.175px */
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  margin-top: 28px;
+}
+
+.section-title {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%; /* 58.5px */
+  letter-spacing: -0.45px;
+}
+
+.remark {
+  color: var(--remarks-main-color);
+  font-family: ManropeWeb;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 170%; /* 32.3px */
+}
+
+.testimonials {
+  display: flex;
+  height: 776px;
+  background-color: var(--bgc-azure);
+}
+
+.content-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials__feedbacks {
+  display: flex;
+  flex-direction: row;
+  column-gap: 36px;
+  margin-top: 40px;
+}
+
+.feedback-card {
+  display: flex;
+  width: 582px;
+  flex-direction: column;
+  align-items: flex-start;
+  background: #fff;
+}
+
+.feedback-card__text {
+  color: var(--main-text-color);
+  font-family: ManropeWeb;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  padding: 44px 48px 54px 49px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  column-gap: 18px;
+  margin-right: auto;
+  width: 582px;
+  height: 125px;
+  flex-shrink: 0;
+  background: #1e2c30;
+  padding: 24px 50px;
+  color: #fff;
+  position: relative;
+}
+
+.user-info::after {
+  position: absolute;
+  width: 70px;
+  height: 55px;
+  content: " ";
+  background: url(../assets/svg/feedback-icon.svg);
+  right: 52px;
+  top: 35px;
+}
+
+.user-avatar {
+  display: block;
+  width: 78px;
+  height: 78px;
+  border: 2px solid #fff;
+}
+
+.user-name {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 160%; /* 32px */
+  letter-spacing: -0.2px;
+}
+
+.user-country {
+  font-family: ManropeWeb;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: 0.42px;
+}
+
+.m-top-50 {
+  margin-top: 50px;
+}
+
+.m-top-15 {
+  margin-top: 15px;
+}
+
+.m-top-8 {
+  margin-top: 8px;
+}
+
+.rating {
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 2px;
+  padding-left: 2px;
+  font-weight: 400;
+  position: relative;
+}
+
+.rating::before {
+  position: absolute;
+  content: "☆☆☆☆☆";
+  left: 2px;
+  top: 0;
+  width: 77px;
+}
+
+/* .content-container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+} */
+
+.rating__satrs {
+  overflow: hidden;
+}

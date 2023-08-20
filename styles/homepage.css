@@ -35,7 +35,7 @@
 
 .banner__content::after {
   position: absolute;
-  right: 0px;
+  left: 54.8%;
   height: 643px;
   width: 532px;
   content: " ";
@@ -81,17 +81,11 @@
   font-weight: 700;
   line-height: 115%; /* 80.5px */
   letter-spacing: -0.7px;
-  margin-top: -25px;
+  margin-top: -20px;
 }
 
 .banner__remark {
-  color: var(--remarks-main-color);
-  font-family: ManropeWeb;
-  font-size: 19px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 170%; /* 32.3px */
-  margin-top: -12px;
+  margin-top: -10px;
 }
 
 .banner__btn {
@@ -164,10 +158,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1200px;
-  width: 100%;
-  height: 614px;
-  margin: auto;
+  align-items: start;
   z-index: 2;
 }
 
@@ -175,31 +166,7 @@
   width: 529px;
 }
 
-.about-section__label {
-  color: #5c8692;
-  font-family: ManropeWeb;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: 154.5%; /* 23.175px */
-  letter-spacing: 1.5px;
-  text-transform: uppercase;
-  margin-top: 28px;
-}
-
-.about-section__title {
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 130%; /* 58.5px */
-  letter-spacing: -0.45px;
-  margin-top: 8px;
-  width: 420px;
-}
-
 .about-section__remark {
-  color: var(--remarks-main-color);
-  font-family: ManropeWeb;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -208,10 +175,16 @@
 }
 
 .about-section__photo {
+  display: block;
   width: 500px;
   flex-shrink: 0;
-  margin-right: 47px;
+  margin-right: 46px;
   margin-top: 38px;
+  box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.1);
+}
+
+.section-title_left-aligned {
+  width: 420px;
 }
 
 .about-section__content-container::before {
@@ -236,4 +209,315 @@
   top: 0px;
   right: 0;
   z-index: -1;
+}
+
+.abouts-section__cards-block {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  column-gap: 10px;
+}
+
+.about-card {
+  width: 165px;
+  height: 180px;
+  padding: 11px 21px;
+  border: 1px solid var(--main-text-color);
+}
+
+.abot-card__icon {
+  display: block;
+  margin: 5px auto 0;
+}
+
+.abot-card__title {
+  text-align: center;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 26.4px */
+  margin-top: 13px;
+}
+
+.secvices {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 1770px;
+  position: relative;
+}
+
+.label_margin-top {
+  margin-top: 147px;
+}
+
+.section-title_centered {
+  width: 660px;
+  text-align: center;
+}
+
+.m-top-50 {
+  margin-top: 50px;
+}
+
+.secvices::before,
+.secvices::after {
+  position: absolute;
+  content: " ";
+  width: 180px;
+  height: 180px;
+  background-color: #1e2c30;
+  top: 50.35%;
+  left: 45.35%;
+  z-index: -1;
+}
+
+.secvices::after {
+  opacity: 0.15;
+  background: url(../assets/img/Photo.png), lightgray 50% / cover no-repeat;
+}
+
+.services__section-title {
+  margin-top: 8px;
+}
+
+.pricelist-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 66px;
+}
+
+.pricelist-photo {
+  display: block;
+  box-shadow: 0px 37px 60px 0px rgba(0, 0, 0, 0.2);
+}
+
+.pricelist {
+  display: block;
+  list-style: none;
+  padding-top: 10px;
+}
+
+.pricelist__title {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+}
+
+.pricelist__price {
+  margin-left: 60px;
+  position: relative;
+}
+
+.pricelist__price::before {
+  position: absolute;
+  content: "from";
+  font-family: ManropeWeb;
+  left: -52px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.precelist-dots {
+  font-weight: 300;
+  letter-spacing: 1.1px;
+  margin-left: 10px;
+}
+
+.pricelist__remark {
+  margin-top: 3px;
+  letter-spacing: -0.1px;
+}
+
+.pricelist-item {
+  height: 83px;
+  border-bottom: 1px solid #9bb7bf;
+  margin-top: 19px;
+}
+
+.pricelist__btn {
+  padding: 23px 34px;
+  margin-top: 30px;
+}
+
+.pricelist-container_reversed {
+  flex-direction: row-reverse;
+}
+
+.pricelist_margined {
+  margin-top: 98px;
+}
+
+.benefits {
+  display: flex;
+  height: 960px;
+}
+
+.benefits__label {
+  margin-top: 143px;
+}
+
+.benefits__title {
+  margin-top: 10px;
+}
+
+.benefits__benefits-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px 105px;
+  margin-top: 42px;
+}
+
+.benefit-card {
+  width: 330px;
+  height: 243px;
+}
+
+.benefit-title {
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 31.2px */
+  margin-top: 15px;
+  /* padding-right: 100px; */
+}
+
+.benefit-remark {
+  font-family: ManropeWeb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 165%; /* 29.7px */
+  letter-spacing: 0.36px;
+  margin-top: 12px;
+}
+
+.apointment {
+  display: flex;
+  height: 928px;
+  background-color: var(--bgc-azure);
+}
+
+.apointment__container {
+  align-items: center;
+  flex-direction: row;
+  column-gap: 115px;
+}
+
+.apointment-section__label {
+  margin-top: 0px;
+}
+
+.apointment-section__title {
+  margin-top: 8px;
+}
+
+.apointment-section__remark {
+  margin-top: 12px;
+  letter-spacing: -0.45px;
+}
+
+.apointment__column-conainer {
+  width: 534px;
+  min-height: 494px;
+}
+
+.apointment__offer {
+  margin-top: 30px;
+}
+
+.apointment__input {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  height: 65px;
+  border: 1px solid #5c8692;
+  background: #fff;
+  padding: 18px 10px 18px 54px;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--remarks-main-color);
+}
+
+.apointment__name-input,
+.apointment__mail-input,
+.apointment__phone-input,
+.apointment__service-input,
+.apointment__textare-input {
+  position: relative;
+}
+
+.apointment__name-input::before,
+.apointment__mail-input::before,
+.apointment__phone-input::before,
+.apointment__service-input::before,
+.apointment__textare-input::before {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 15px;
+  top: 20px;
+  content: " ";
+  background-image: url(../assets/svg/User.svg);
+}
+
+.apointment__mail-input::before {
+  background-image: url(../assets/svg/mail.svg);
+}
+
+.apointment__phone-input::before {
+  background-image: url(../assets/svg/phone-ico.svg);
+}
+
+.apointment__service-input::before {
+  background-image: url(../assets/svg/book-open.svg);
+}
+
+.apointment__textare-input::before {
+  background-image: url(../assets/svg/edit.svg);
+}
+
+.apointment__textarea {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  height: 136px;
+  border: 1px solid #5c8692;
+  background: #fff;
+  padding: 18px 10px 18px 54px;
+  font-family: ManropeWeb;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+  color: var(--remarks-main-color);
+  resize: none;
+}
+
+.apointment__btn {
+  padding: 23px 105px;
+  max-width: 400px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 1.3px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.apointment__form {
+  display: flex;
+  max-width: 554px;
+  width: 100%;
+  flex-direction: column;
+  background: #fff;
+  row-gap: 15px;
+  padding: 66px 78px;
+  box-shadow: 0px 20px 40px 0px rgba(42, 68, 75, 0.13);
 }
