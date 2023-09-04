@@ -340,7 +340,7 @@ body {
   margin: 16px auto;
 }
 
-.footer__socials {
+.footer__socials-links {
   display: flex;
   flex-direction: row;
   column-gap: 10px;

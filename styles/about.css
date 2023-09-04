@@ -175,3 +175,122 @@
   font-size: 18px;
   line-height: 175%; /* 31.5px */
 }
+
+.expert-section__label {
+  margin-top: 130px;
+}
+
+.expert-section__title {
+  width: 660px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.expert-card {
+  width: 370px;
+  height: 568px;
+}
+
+.expert-name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 120%; /* 28.8px */
+  margin-top: 20px;
+}
+
+.job-title {
+  margin-top: 3px;
+  text-align: center;
+}
+
+.expert-info {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 17px;
+  font-weight: 400;
+  line-height: 160%; /* 28.8px */
+}
+
+.experts__card-container {
+  display: flex;
+  flex-direction: row;
+  column-gap: 45px;
+  margin-top: 33px;
+}
+
+.expert-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  column-gap: 29px;
+  margin-top: 12px;
+}
+
+.social-link {
+  display: block;
+  text-decoration: none;
+}
+
+.experts {
+  padding-bottom: 129px;
+}
+
+.label_margin-top {
+  margin-top: 147px;
+}
+
+.share__content-container {
+  flex-direction: row;
+  column-gap: 52px;
+  margin-top: 150px;
+}
+
+.share__column-first {
+  width: 505px;
+  height: 976px;
+}
+
+.share__section-label {
+  margin-top: 0;
+}
+
+.share__section-title {
+  padding-right: 50px;
+  margin-top: 9px;
+}
+
+.share__remark {
+  margin-top: 22px;
+  font-size: 18px;
+  padding-right: 20px;
+  line-height: 175%;
+}
+
+.share__img-first {
+  margin-top: 50px;
+}
+
+.share__column-second {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.share__btn {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 17.5px */
+  letter-spacing: 1.68px;
+  text-transform: uppercase;
+  padding: 23px 72px 24px 72px;
+  margin: 60px auto 0;
+}
+
+.share {
+  padding-bottom: 150px;
+}
